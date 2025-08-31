@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEC2FDC92E63F20E00AC452B /* libS4CBLite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC2FDBA2E63F1C200AC452B /* libS4CBLite.a */; };
+		EEC2FDDC2E63F93800AC452B /* libcblite.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC2FDDB2E63F93800AC452B /* libcblite.3.dylib */; };
+		EEC2FDDF2E63F97200AC452B /* libcblite.3.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = EEC2FDDB2E63F93800AC452B /* libcblite.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEC2FDCA2E63F20E00AC452B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEC2FDB22E63F1C200AC452B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEC2FDB92E63F1C200AC452B;
+			remoteInfo = S4CBLite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EEC2FDE02E63F97200AC452B /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EEC2FDDF2E63F97200AC452B /* libcblite.3.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EEC2FDBA2E63F1C200AC452B /* libS4CBLite.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libS4CBLite.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC2FDC52E63F20E00AC452B /* S4CBLiteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = S4CBLiteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEC2FDDB2E63F93800AC452B /* libcblite.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcblite.3.dylib; path = ../libcblite/lib/libcblite.3.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		EEC2FDD62E63F54200AC452B /* Exceptions for "src" folder in "S4CBLite" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			publicHeaders = (
+				S4CBLite.h,
+			);
+			target = EEC2FDB92E63F1C200AC452B /* S4CBLite */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EEC2FDC62E63F20E00AC452B /* S4CBLiteTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = S4CBLiteTests;
+			sourceTree = "<group>";
+		};
+		EEC2FDD32E63F52200AC452B /* src */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EEC2FDD62E63F54200AC452B /* Exceptions for "src" folder in "S4CBLite" target */,
+			);
+			name = src;
+			path = ../src;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEC2FDB82E63F1C200AC452B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEC2FDC22E63F20E00AC452B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEC2FDDC2E63F93800AC452B /* libcblite.3.dylib in Frameworks */,
+				EEC2FDC92E63F20E00AC452B /* libS4CBLite.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEC2FDB12E63F1C200AC452B = {
+			isa = PBXGroup;
+			children = (
+				EEC2FDC62E63F20E00AC452B /* S4CBLiteTests */,
+				EEC2FDBB2E63F1C200AC452B /* Products */,
+				EEC2FDD32E63F52200AC452B /* src */,
+				EEC2FDDA2E63F93800AC452B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EEC2FDBB2E63F1C200AC452B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEC2FDBA2E63F1C200AC452B /* libS4CBLite.a */,
+				EEC2FDC52E63F20E00AC452B /* S4CBLiteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEC2FDDA2E63F93800AC452B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEC2FDDB2E63F93800AC452B /* libcblite.3.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EEC2FDB62E63F1C200AC452B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EEC2FDB92E63F1C200AC452B /* S4CBLite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEC2FDBE2E63F1C200AC452B /* Build configuration list for PBXNativeTarget "S4CBLite" */;
+			buildPhases = (
+				EEC2FDB62E63F1C200AC452B /* Headers */,
+				EEC2FDB72E63F1C200AC452B /* Sources */,
+				EEC2FDB82E63F1C200AC452B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EEC2FDD32E63F52200AC452B /* src */,
+			);
+			name = S4CBLite;
+			packageProductDependencies = (
+			);
+			productName = S4CBLite;
+			productReference = EEC2FDBA2E63F1C200AC452B /* libS4CBLite.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EEC2FDC42E63F20E00AC452B /* S4CBLiteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEC2FDCC2E63F20E00AC452B /* Build configuration list for PBXNativeTarget "S4CBLiteTests" */;
+			buildPhases = (
+				EEC2FDC12E63F20E00AC452B /* Sources */,
+				EEC2FDC22E63F20E00AC452B /* Frameworks */,
+				EEC2FDC32E63F20E00AC452B /* Resources */,
+				EEC2FDE02E63F97200AC452B /* Embed Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEC2FDCB2E63F20E00AC452B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EEC2FDC62E63F20E00AC452B /* S4CBLiteTests */,
+			);
+			name = S4CBLiteTests;
+			packageProductDependencies = (
+			);
+			productName = S4CBLiteTests;
+			productReference = EEC2FDC52E63F20E00AC452B /* S4CBLiteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEC2FDB22E63F1C200AC452B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					EEC2FDB92E63F1C200AC452B = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					EEC2FDC42E63F20E00AC452B = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = EEC2FDB52E63F1C200AC452B /* Build configuration list for PBXProject "S4CBLite" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEC2FDB12E63F1C200AC452B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EEC2FDBB2E63F1C200AC452B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEC2FDB92E63F1C200AC452B /* S4CBLite */,
+				EEC2FDC42E63F20E00AC452B /* S4CBLiteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEC2FDC32E63F20E00AC452B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEC2FDB72E63F1C200AC452B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEC2FDC12E63F20E00AC452B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEC2FDCB2E63F20E00AC452B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEC2FDB92E63F1C200AC452B /* S4CBLite */;
+			targetProxy = EEC2FDCA2E63F20E00AC452B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EEC2FDBC2E63F1C200AC452B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = VRBXNNQ5TF;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EEC2FDBD2E63F1C200AC452B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = VRBXNNQ5TF;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EEC2FDBF2E63F1C200AC452B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VRBXNNQ5TF;
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../libcblite/include\"/**";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EEC2FDC02E63F1C200AC452B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VRBXNNQ5TF;
+				EXECUTABLE_PREFIX = lib;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../libcblite/include\"/**";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EEC2FDCD2E63F20E00AC452B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VRBXNNQ5TF;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../libcblite/include\"/**";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../libcblite/lib\"";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seastonessoftware.S4CBLiteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+			};
+			name = Debug;
+		};
+		EEC2FDCE2E63F20E00AC452B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VRBXNNQ5TF;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../libcblite/include\"/**";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../libcblite/lib\"";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.seastonessoftware.S4CBLiteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEC2FDB52E63F1C200AC452B /* Build configuration list for PBXProject "S4CBLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC2FDBC2E63F1C200AC452B /* Debug */,
+				EEC2FDBD2E63F1C200AC452B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEC2FDBE2E63F1C200AC452B /* Build configuration list for PBXNativeTarget "S4CBLite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC2FDBF2E63F1C200AC452B /* Debug */,
+				EEC2FDC02E63F1C200AC452B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEC2FDCC2E63F20E00AC452B /* Build configuration list for PBXNativeTarget "S4CBLiteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEC2FDCD2E63F20E00AC452B /* Debug */,
+				EEC2FDCE2E63F20E00AC452B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEC2FDB22E63F1C200AC452B /* Project object */;
+}

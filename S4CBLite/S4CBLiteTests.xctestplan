@@ -1,0 +1,25 @@
+{
+  "configurations" : [
+    {
+      "id" : "43EFACB4-2946-4A7E-949B-0D07A99B5801",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : false,
+      "target" : {
+        "containerPath" : "container:S4CBLite.xcodeproj",
+        "identifier" : "EEC2FDC42E63F20E00AC452B",
+        "name" : "S4CBLiteTests"
+      }
+    }
+  ],
+  "version" : 1
+}
